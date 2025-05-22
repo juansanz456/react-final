@@ -40,15 +40,14 @@ const Nav = () => {
                             </Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <a
+                            <button
                                 className="nav-link dropdown-toggle"
-                                href="#"
-                                role="button"
+                                type="button"
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
                                 Sobre nosotros
-                            </a>
+                            </button>
                             <ul className="dropdown-menu">
                                 <li>
                                     <Link to="/Sobre_nosotros" className="dropdown-item">
