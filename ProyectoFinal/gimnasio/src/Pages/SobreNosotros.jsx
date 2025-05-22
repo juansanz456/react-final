@@ -1,4 +1,4 @@
-const Sobre_nosotros = () => {
+const SobreNosotros = () => {
     return (
         <div className="container mt-5">
             <div className="bg-gradient p-4 rounded-4 shadow-lg" style={{ background: "linear-gradient(120deg, #43c6ac 0%, #191654 100%)" }}>
@@ -53,4 +53,4 @@ const Sobre_nosotros = () => {
     );
 }
 
-export default Sobre_nosotros;
+export default SobreNosotros;
